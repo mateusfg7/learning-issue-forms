@@ -22,6 +22,10 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: "Screenshot"
+      description: "Some screenshots of the error if applicable"
+  - type: textarea
+    attributes:
       label: "Output"
       description: "Some terminal/console error output if applicable (the text will auto-render to bash code-block)"
       render: bash
